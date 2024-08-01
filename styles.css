@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0e6f6;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background: #b565a7;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #914d8b;
+}
+
+.message {
+    font-size: 1.4em;
+    margin-top: 30px;
+}
